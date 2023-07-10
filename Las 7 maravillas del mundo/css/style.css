@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Lato';
-    src: url('../resources/Lato.zip') format('truetype');
-    /* Agrega otras fuentes y estilos si es necesario, como lato-bold.ttf para negrita */
+    src: url('../resources/Lato/Lato-Regular.ttf') format('truetype'); 
 }
 
 body {
@@ -46,4 +45,5 @@ section {
 .listaMundoAntiguo {
     columns: 3;
     color: black;
+    font-family: 'Lato';
   }
