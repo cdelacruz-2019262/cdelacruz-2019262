@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'Lato';
     src: url('../resources/Lato/Lato-Regular.ttf') format('truetype'); 
+    
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('../resources/Lato/Lato-Black.ttf') format('truetype'); 
 }
 
 body {
@@ -19,7 +25,7 @@ video {
 }
 
 section {
-    color: white;
+    color: black;
 }
 
 .box {
@@ -36,14 +42,20 @@ section {
 .titulos {
     text-align: center;
     color: green;
+    font-family: 'Lato-Black';
 }
 
 .texto{
     color: black;
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-family: 'Lato';
+    font-size: 18px;
 }
 
 .listaMundoAntiguo {
     columns: 3;
     color: black;
     font-family: 'Lato';
-  }
+}
