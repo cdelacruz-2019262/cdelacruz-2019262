@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../resources/Lato.zip') format('truetype');
+    /* Agrega otras fuentes y estilos si es necesario, como lato-bold.ttf para negrita */
+}
+
 body {
     position: relative;
     margin: 0;
@@ -11,21 +17,33 @@ video {
     min-height: 100%;
     transform: translateX(calc((100% - 100vw) / 2));
     z-index: -2;
-  }
-
-p{
-    margin: 0;
-    padding-top: 3rem;
-    padding-left: 2rem;
-    color:blueviolet;
-}
-
-.h2 {
-    margin: 0;
-    padding-top: 3rem;
-    padding-left: 2rem;
 }
 
 section {
     color: white;
 }
+
+.box {
+    border: 5px solid darkblue;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: aliceblue;
+}
+
+.titulos {
+    text-align: center;
+    color: green;
+}
+
+.texto{
+    color: black;
+}
+
+.listaMundoAntiguo {
+    columns: 3;
+    color: black;
+  }
