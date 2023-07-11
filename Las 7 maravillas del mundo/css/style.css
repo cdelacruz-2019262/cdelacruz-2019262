@@ -114,9 +114,8 @@ section {
 .menu ul li a {
     display: block;
     padding: 10px 20px;
-    color: green;
+    color: black;
     text-decoration: none;
-    
 }
 
 .menu ul li a:hover {
