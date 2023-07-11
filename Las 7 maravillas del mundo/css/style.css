@@ -20,6 +20,17 @@ video {
     z-index: -2;
 }
 
+/*@media (max-width: 800px){
+    .menu ul li{
+        display: none;
+
+    }
+
+    .mundo-derecho{
+        display: flex;
+    }
+}*/
+
 section {
     color: black;
 }
