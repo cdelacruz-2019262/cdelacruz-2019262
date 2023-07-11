@@ -42,6 +42,14 @@ section {
     font-family: 'Lato-Black';
 }
 
+.subtitulos {
+    color: rgb(44, 172, 214);
+    font-family: 'Lato-Black';
+    font-size: 20px;
+    margin: 3%;
+    font-weight: normal;
+}
+
 .texto{
     color: black;
     text-align: justify;
@@ -57,6 +65,16 @@ section {
     font-family: 'Lato';
     font-size: 18px;
     font-weight:normal;
+}
+
+.listaMundoActual {
+    overflow: hidden;
+    color: black;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight:normal;
+    list-style: none;
+    text-align: left;
 }
 
 .menu{
@@ -111,4 +129,18 @@ section {
     max-width: 100%;
     list-style: none;
     margin-bottom: 0.5cm;
+}
+
+.imagen-maravilla{
+    width: 40%;
+    height: 8cm;
+    float: right;
+    margin-right: 10px;
+}
+
+
+.texto-informacion, .imagen-maravilla{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 40%
 }
