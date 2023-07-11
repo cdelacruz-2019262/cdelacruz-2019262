@@ -85,7 +85,7 @@ section {
 .menu ul li a {
     display: block;
     padding: 10px 20px;
-    color: 'rgb(0, 0, 0, 0.5)';
+    color: green;
     text-decoration: none;
     
 }
