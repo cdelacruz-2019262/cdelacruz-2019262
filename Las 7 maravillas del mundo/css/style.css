@@ -32,7 +32,7 @@ section {
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 4%;
-    
+    margin-bottom: 1cm;
     background-color: aliceblue;
 }
 
@@ -63,8 +63,11 @@ section {
     margin-left: 10%;
     margin-right: 10%;
     position: relative;
+    text-align:end;    
+}
 
-    text-align: center;
+.mundo-derecho{
+    float: left;
 }
 
 .menu ul{
@@ -75,7 +78,8 @@ section {
     display: inline-block;
     border: 2px solid black;
     border-radius: 45px;
-    background-color: rgb(158, 153, 153);
+    /*background-color: rgb(158, 153, 153);*/
+    
 }
 
 .menu ul li a {
@@ -90,4 +94,21 @@ section {
     background-color: rgb(71, 70, 70);
     border-radius: 45px;
     color: white;
+}
+
+.imagen-mundo {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.imagen-mundo img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+    max-width: 100%;
+    list-style: none;
+    margin-bottom: 0.5cm;
 }
